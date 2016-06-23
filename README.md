@@ -8,6 +8,13 @@ Angular rock paper scissor game
     
     bower install
     
+
+#### To view the dev version    
+    gulp serve-dev
+    
+#### To view the build version    
+    gulp serve-build
+    
 The app should be viewable at http://localhost:7203/
 
 ### Useful link
