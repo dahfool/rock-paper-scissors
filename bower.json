@@ -1,0 +1,26 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "0.0.1",
+  "description": "Super awesome Rock Paper Scissors game",
+  "authors": ["Gerald Isabelle"],
+  "license": "MIT",
+  "homepage": "hhttps://github.com/dahfool/rock-paper-scissors.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-mocks": "~1.2.24"
+  },
+  "dependencies": {
+    "angular": "~1.2.24",
+    "angular-route": "~1.2.24",
+    "angular-animate": "~1.2.24",
+    "angular-sanitize": "~1.2.24",
+    "font-awesome": "~4.0.3",
+    "extras.angular.plus": "~0.9.0"
+  }
+}
