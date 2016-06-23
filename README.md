@@ -1,12 +1,12 @@
 ## Rock-Paper-Scissors
 
-Angular rock paper scissor
+Angular rock paper scissor game
 
 ### Getting Started
  
     npm install
     
-    bowser install
+    bower install
     
 The app should be viewable at http://localhost:7203/
 
