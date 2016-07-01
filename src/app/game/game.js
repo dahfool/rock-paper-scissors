@@ -16,17 +16,23 @@
         vm.game = '';
 
         vm.setStatus = function(status) {
-            vm.status = status
+            vm.status = status;
 
             if(status === 'start') {
                 vm.game = '';
             }
         };
-        
-        vm.play = function (selected) {
+
+
+        vm.computerMove = function () {
             var data = ['Rock','Paper','Scissors'];
-            vm.computer = data[Math.floor(Math.random() * data.length)]
+            return data[Math.floor(Math.random() * data.length)];
+        };
+        
+        vm.play = function (selected, computer) {
+
             vm.selected = selected;
+            vm.computer = computer;
 
             if(vm.computer === vm.selected ) {
                 vm.game = 'draw'
